@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import TestReducer from './test_reducer'
+import YelpReducer from './yelp_reducer'
 
 const rootReducer = combineReducers({
-  test: TestReducer
+  results: YelpReducer
 
 });
 

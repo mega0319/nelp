@@ -8,7 +8,7 @@ import reducers from './reducers'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import LoginPage from './components/login_page'
+import SearchPage from './components/search_page'
 import AboutMePage from './components/about_me_page'
 
 import registerServiceWorker from './registerServiceWorker';
@@ -21,7 +21,7 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
         <Switch>
-          <Route path='/login' component={LoginPage}/>
+          <Route path='/login' component={SearchPage}/>
           <Route path='/about' component={AboutMePage}/>
         </Switch>
       </div>

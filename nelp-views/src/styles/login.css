@@ -1,0 +1,59 @@
+body {
+  background: url('../images/nystk.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login {
+  vertical-align: top;
+  height: 900px;
+  width: auto;
+
+}
+
+.search-text {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: monospace;
+}
+
+
+input[type=text] {
+  width: 80%;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.login-form {
+  height: 400px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(230,240,255,0.2);
+  border-radius: 10%;
+}
+
+.btn {
+  background-color: green;
+  box-shadow: 15px 10px 10px black;
+  border-radius: 6%;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: rgba(000, 255, 155, 0.7);
+  cursor: pointer;
+}

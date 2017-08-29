@@ -2,7 +2,7 @@ import axios from 'axios'
 
 let URL = 'http://localhost:3000/yelp_request'
 
-export default function search(location, term){
+export default function search(location, term='restaurant'){
   axios.get(URL, {
     params: {
       location: location,
