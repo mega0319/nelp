@@ -8,7 +8,8 @@ class SearchForm extends Component {
     super()
 
     this.state = {
-      location: ''
+      location: '',
+      type: ''
     }
   }
 

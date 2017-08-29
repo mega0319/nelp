@@ -12,7 +12,6 @@ import SearchPage from './containers/search_page'
 import AboutMePage from './components/about_me_page'
 
 import registerServiceWorker from './registerServiceWorker';
-import './styles/app.css';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore)
 
