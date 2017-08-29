@@ -27,7 +27,7 @@ class SearchForm extends Component {
   render() {
     return(
 
-      <div className='login-form'>
+      <div className='search-form'>
         <h2 className='search-text'>
           Search
         </h2>

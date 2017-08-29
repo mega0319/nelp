@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 
-.login {
+.landing {
   vertical-align: top;
   height: 900px;
   width: auto;
@@ -31,7 +31,7 @@ input[type=text] {
   border-radius: 4px;
 }
 
-.login-form {
+.search-form {
   height: 400px;
   width: 500px;
   margin: auto;

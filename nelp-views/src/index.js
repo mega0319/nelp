@@ -8,7 +8,7 @@ import reducers from './reducers'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import SearchPage from './components/search_page'
+import SearchPage from './containers/search_page'
 import AboutMePage from './components/about_me_page'
 
 import registerServiceWorker from './registerServiceWorker';

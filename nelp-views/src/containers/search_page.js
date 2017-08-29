@@ -1,21 +1,22 @@
 import React from 'react'
-import '../styles/login.css'
-import SearchForm from './search_form'
+import '../styles/main.css'
+import SearchForm from '../components/search_form'
+import SearchResults from './search_results'
 import { connect } from 'react-redux'
 
 class SearchPage extends React.Component {
 
   render() {
     return(
-      <div className='login'>
+      <div className='landing'>
         <SearchForm />
+        <SearchResults />
       </div>
     )
   }
 }
 
 function mapStateToProps(state) {
-  console.log(state)
   return {results: state.results}
 }
 
