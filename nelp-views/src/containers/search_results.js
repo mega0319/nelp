@@ -7,7 +7,7 @@ import InfoCard from '../components/info_card'
 
 class SearchResults extends Component {
   renderCards(item) {
-      return <InfoCard properties={item}/>
+      return <InfoCard key={item.name} properties={item}/>
   }
 
   render() {
