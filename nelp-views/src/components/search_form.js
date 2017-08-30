@@ -36,6 +36,7 @@ class SearchForm extends Component {
     return(
 
       <div className='search-form'>
+        <img className='logo' src={require('../images/8.svg')}/>
         <h2 className='search-text'>
           Search
         </h2>

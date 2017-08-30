@@ -1,5 +1,5 @@
 body {
-  background: url('../images/nystk.jpg') no-repeat center center fixed;
+  background-color: rgba(210,0,0, 0.9);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,6 +20,10 @@ body {
   font-family: monospace;
 }
 
+.logo {
+  margin: auto;
+}
+
 
 input[type=text] {
   width: 80%;
@@ -35,8 +39,7 @@ input[type=text] {
   width: 500px;
   margin: auto;
   text-align: center;
-  background-color: rgba(230,240,255,0.2);
-  border-radius: 10%;
+  border-radius: 3%;
 }
 
 .btn {
