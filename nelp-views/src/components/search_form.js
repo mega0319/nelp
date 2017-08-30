@@ -13,16 +13,23 @@ class SearchForm extends Component {
     }
   }
 
-  handleChange = (e) => {
+  handleLocation = (e) => {
     this.setState({
       location: e.target.value
     })
     console.log(this.state.location)
   }
 
+  handleType = (e) => {
+    this.setState({
+      type: e.target.value
+    })
+    console.log(this.state.type)
+  }
+
   handleSubmit = (e) => {
     e.preventDefault()
-    this.props.search(this.state.location)
+    this.props.search(this.state.location, this.state.type)
   }
 
   render() {
@@ -33,7 +40,8 @@ class SearchForm extends Component {
           Search
         </h2>
         <form onSubmit={this.handleSubmit}>
-          <input onChange={this.handleChange} type='text' placeholder='location' value={this.state.location}/>
+          <input onChange={this.handleLocation} type='text' placeholder='location' value={this.state.location}/>
+          <input onChange={this.handleType} type='text' placeholder='type' value={this.state.type}/>
           <input className='btn' type='submit'/>
         </form>
       </div>
