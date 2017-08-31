@@ -27,3 +27,11 @@
   margin-top: 20px;
   border-radius: 10px;
 }
+
+.star {
+  color: gold;
+}
+
+.price {
+  color: green;
+}
