@@ -36,11 +36,11 @@ class SearchForm extends Component {
     return(
 
       <div className='search-form'>
-        <img className='logo' src={require('../images/8.svg')}/>
+        <img className='animated fadeIn logo' src={require('../images/8.svg')}/>
         <h2 className='search-text'>
           Search
         </h2>
-        <form onSubmit={this.handleSubmit}>
+        <form className='animated slideInUp' onSubmit={this.handleSubmit}>
           <input onChange={this.handleLocation} type='text' placeholder='location' value={this.state.location}/>
           <input onChange={this.handleType} type='text' placeholder='type' value={this.state.type}/>
           <input className='btn' type='submit'/>
