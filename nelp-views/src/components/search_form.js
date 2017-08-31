@@ -43,7 +43,7 @@ class SearchForm extends Component {
         <form className='animated slideInUp' onSubmit={this.handleSubmit}>
           <input onChange={this.handleLocation} type='text' placeholder='location' value={this.state.location}/>
           <input onChange={this.handleType} type='text' placeholder='type' value={this.state.type}/>
-          <input className='btn' type='submit'/>
+          <input className='btn' type='submit' value="search"/>
         </form>
       </div>
     )
