@@ -10,12 +10,14 @@
   font-family:monospace;
   font-size: 16px;
   border-style: solid;
+  border-width: 3px;
   border-color: rgba(210,0,0, 0.9);
   text-align: center;
 }
 
 .info-card:hover {
   border-style: solid;
+  border-width: 3px;
   border-color: green;
 }
 
